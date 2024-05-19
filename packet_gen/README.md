@@ -25,6 +25,7 @@ Require the below OS and the jsoncpp-dev installed.
 
 
 ```bash
+chmod +x packet_gen
 sudo ./packet_gen -f packet_gen.json
 ```
 
