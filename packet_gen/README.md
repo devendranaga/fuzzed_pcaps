@@ -11,14 +11,14 @@ Packet generator is a binary file that is generated for nIDS test purpose. It ha
 PCAP replay can either be replayed at configured period or can be replayed by identifying exactly time difference
 between the two packets and using that to acheive exact Inter Packet Gap.
 
-# Requirements
+## Requirements
 
 Require the below OS and the jsoncpp-dev installed.
 
 1. Ubuntu 23.10
 2. libjsoncpp-dev
 
-# How to use it
+## How to use it
 
 1. Packet_gen.json contains the configuration data for each packet formats.
 2. Only one packet type can be set at once.
