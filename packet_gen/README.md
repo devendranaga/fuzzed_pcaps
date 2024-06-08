@@ -7,6 +7,7 @@ Packet generator is a binary file that is generated for nIDS test purpose. It ha
 3. MACsec
 4. IPv4
 5. Pcap replay
+6. ICMP
 
 PCAP replay can either be replayed at configured period or can be replayed by identifying exactly time difference
 between the two packets and using that to acheive exact Inter Packet Gap.
